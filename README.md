@@ -1,6 +1,6 @@
-# Reinforced Data Selection for Domain Adaptation
+# Reinforced Training Data Selection for Domain Adaptation
 
-This is the source code for ACL 2019 paper "Reinforced Data Selection for Domain Adaptation".
+This is the source code for ACL 2019 paper "Reinforced Training Data Selection for Domain Adaptation".
 
 The readers are welcome to star/fork this repository and use it to train your own model, reproduce our experiment, and follow our future work. Please kindly cite our paper:
 
@@ -9,8 +9,8 @@ The readers are welcome to star/fork this repository and use it to train your ow
   author    = {Miaofeng Liu and
                Yan Song and
                Hongbin Zou and
-               Yan Song},
-  title     = {Reinforced Data Selection for Domain Adaptation},
+               Tong Zhang},
+  title     = {Reinforced Training Data Selection for Domain Adaptation},
   booktitle = {Proceedings of ACL, 2019},
   year      = {2019}
 }
