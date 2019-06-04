@@ -232,10 +232,6 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
   - [Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations](https://www.transacl.org/ojs/index.php/tacl/article/viewFile/885/198)
   - [Transition-Based Dependency Parsing with Stack Long Short-Term Memory](http://arxiv.org/abs/1505.08075) 
 
-### Acknowledgement
-
-  If you use the code, please cite the paper ``Reinforced Training Data Selection for Domain Adaptation".
-
  
 
 
