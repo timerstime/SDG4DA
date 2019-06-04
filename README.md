@@ -50,13 +50,13 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
 
 - ### Sentiment analysis
 
-  ####Requirements
+  #### Requirements
 
   - Python 3
   - Tensorflow > 0.12
   - Numpy
 
-  ####Training
+  #### Training
 
   Print parameters:
 
@@ -101,7 +101,7 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
   python train_AC.py
   ```
 
-  ####Evaluating
+  #### Evaluating
 
   ```bash
   ./eval.py --eval_train --checkpoint_dir="./runs/18020311733/checkpoints/"
@@ -109,7 +109,7 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
 
   Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data. Run `plot_tsne3.py` to visualize the data representations from the feature extractor for sentiment analysis on the DVD domain.
 
-  ####References
+  #### References
 
   - [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882)
 
@@ -120,12 +120,12 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
 
   The based tagger is essentially the Bidirectional Long-Short Term Memory tagger in http://arxiv.org/abs/1604.05529.
 
-  ####Requirements
+  #### Requirements
 
   - python3 
   - [DyNet 2.0](https://github.com/clab/dynet)
 
-  ####Installation
+  #### Installation
 
   Download and install dynet in a directory of your choice DYNETDIR: 
 
@@ -163,7 +163,7 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
 
   (You may need to set you PYTHONPATH to include Dynet's `build/python`)
 
-  #####DyNet supports python 3
+  ##### DyNet supports python 3
 
   The old bilstm-aux had a patch to work with python 3. This
   is no longer necessary, as DyNet supports python 3 as of
@@ -214,7 +214,7 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
 
   We adopt the same external embedding used in [Transition-Based Dependency Parsing with Stack Long Short-Term Memory](http://arxiv.org/abs/1505.08075) which can be downloaded from the authors [github repository](https://github.com/clab/lstm-parser/) and [directly here](https://drive.google.com/file/d/0B8nESzOdPhLsdWF2S1Ayb1RkTXc/view?usp=sharing).
 
-  ####Parse test data
+  #### Parse test data
 
   The command for parsing a `test.conll` file formatted according to the [CoNLL data format](http://ilk.uvt.nl/conll/#dataformat) with a previously trained model is:
   ```
@@ -227,7 +227,7 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
 
 
 
-  ####References
+  #### References
 
   - [Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations](https://www.transacl.org/ojs/index.php/tacl/article/viewFile/885/198)
   - [Transition-Based Dependency Parsing with Stack Long Short-Term Memory](http://arxiv.org/abs/1505.08075) 
