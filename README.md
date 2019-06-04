@@ -1,5 +1,22 @@
 # Reinforced Data Selection for Domain Adaptation
 
+This is the source code for NAACL-HLT 2019 paper "Incorporating Context and External Knowledge for Pronoun Coreference Resolution".
+
+The readers are welcome to star/fork this repository and use it to train your own model, reproduce our experiment, and follow our future work. Please kindly cite our paper:
+
+```
+@inproceedings{liu2019reinforced,
+  author    = {Miaofeng Liu and
+               Yan Song and
+               Hongbin Zou and
+               Yan Song},
+  title     = {Reinforced Data Selection for Domain Adaptation},
+  booktitle = {Proceedings of ACL, 2019},
+  year      = {2019}
+}
+```
+
+
 #### In this document, we briefly overview how to set up and run selection distribution generator (SDG) to dynamically select data for domain adaptation in three natural language processing tasks.
 
 ## Set up and run
