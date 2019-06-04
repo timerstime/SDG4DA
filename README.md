@@ -1,4 +1,4 @@
-#Reinforced Data Selection for Domain Adaptation
+# Reinforced Data Selection for Domain Adaptation
 
 #### In this document, we briefly overview how to set up and run selection distribution generator (SDG) to dynamically select data for domain adaptation in three natural language processing tasks.
 
@@ -13,7 +13,7 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
   python train_AC.py
   ```
 
-- ###POS tagging
+- ### POS tagging
 
   ```bash
   cd POS_tagging/src   
