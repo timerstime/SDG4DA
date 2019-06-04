@@ -1,0 +1,1 @@
+python src/parser.py --dynet-seed 123456789 --dynet-mem 1500 --outdir out/ --train ../data_sancl/gweb_sancl/parse/weblogs/gweb-weblogs-test.conll --dev ../data_sancl/gweb_sancl/parse/weblogs/gweb-weblogs-dev.conll --epochs 30 --lstmdims 125 --lstmlayers 2 --extrn ../model/sskip.100.vectors --bibi-lstm
