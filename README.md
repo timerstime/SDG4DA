@@ -2,7 +2,7 @@
 
 This is the source code for paper "Reinforced Training Data Selection for Domain Adaptation".
 
-The readers are welcome to star/fork this repository and use it to train your own model, reproduce our experiment, and follow our future work. Please kindly cite our paper:
+The readers are welcome to star/fork this repository and use it to train your own model, modify our experiments. Please kindly cite our paper:
 
 ```
 @inproceedings{liu2019reinforced,
@@ -16,7 +16,7 @@ The readers are welcome to star/fork this repository and use it to train your ow
 ```
 
 
-#### In this document, we briefly overview how to set up and run selection distribution generator (SDG) to dynamically select data for domain adaptation in three natural language processing tasks.
+#### In this document, we briefly illustrate how to set up and run selection distribution generator (SDG) to dynamically select data for multiple source domain adaptation in natural language processing tasks.
 
 ## Set up and run
 
@@ -27,20 +27,6 @@ Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/h
   ```bash
   cd sentiment-analysis/sentiment-analysis/src
   python train_AC.py
-  ```
-
-- ### POS tagging
-
-  ```bash
-  cd POS_tagging/src   
-  python all_source_all_target_change.py
-  ```
-
-- ### Dependency parsing
-
-  ```bash
-  cd PARSing/bist-parser/bmstparser/src/
-  python parser-9-20-target_weblogs.py            # e.g. for "weblogs" as target domain    
   ```
 
 
