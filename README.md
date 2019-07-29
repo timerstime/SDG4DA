@@ -20,7 +20,7 @@ The readers are welcome to star/fork this repository and use it to train your ow
 
 ## Set up and run
 
-Download the raw datasets, [SANCL2012](https://sites.google.com/site/sancl2012/home/shared-task) and [multi-domain Amazon product review](https://www.cs.jhu.edu/~mdredze/datasets/sentiment/) for POS tagging / dependency parsing and sentiment analysis respectively.
+Download the raw datasets from [SANCL2012](https://sites.google.com/site/sancl2012/home/shared-task).
 
 - ### Sentiment analysis
 
