@@ -1,6 +1,6 @@
 # Reinforced Training Data Selection for Domain Adaptation
 
-This is the source code for paper "Reinforced Training Data Selection for Domain Adaptation".
+This is the implementation code for paper "Reinforced Training Data Selection for Domain Adaptation".
 
 The readers are welcome to star/fork this repository and use it to train your own model, modify our experiments. Please kindly cite our paper:
 
