@@ -6,7 +6,7 @@ The readers are welcome to star/fork this repository and use it to train your ow
 
 ```
 @inproceedings{liu2019reinforced,
-  author    = {Miaofeng Liu and
+  author    = {Lewis Liu and
                Yan Song and
                Hongbin Zou and
                Tong Zhang},
